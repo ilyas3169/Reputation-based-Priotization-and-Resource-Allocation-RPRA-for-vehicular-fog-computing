@@ -9,4 +9,7 @@ Note that at present the generated reputation values are one of the main the cri
 ### a) Workspace_RPRA_TES_IDES_CBAWUpdated25October2023V6.mat, 
 ### b) RPRA_Vs_IDES18June2023.mat, and 
 ### c) TrustVFCAllMethodsWithoutLog24October2023.mat
-## Step 2: 
+## Step 2: After running the above files and loading the above mentioned matlab files or only loading the above mentioned matlab files, now is the turn to identify the parameters and their values in a separate excel sheet. These parametes are:
+### a) Parameter "yloggedreputTESAll" for reputation values for TES technique
+### b) Parameter "AverageReputAllIDES" for reputation values for IDES  technique
+### c) Parameter "SaveTotalTrustArray" for reputation values for CBAW  technique.... Yes the name of "SaveTotalTrustArray" is a little not similar to its technique, that is , CBAW...
