@@ -13,3 +13,4 @@ Note that at present the generated reputation values are one of the main the cri
 ### a) Parameter "yloggedreputTESAll" for reputation values for TES technique
 ### b) Parameter "AverageReputAllIDES" for reputation values for IDES  technique
 ### c) Parameter "SaveTotalTrustArray" for reputation values for CBAW  technique.... Yes the name of "SaveTotalTrustArray" is a little not similar to its technique, that is , CBAW...
+## Step 3: After getting the fresh values by running the mentioned matlab files again and loading the corresponding matlab data (source files) or only retrieving the old values (as that of ours), now is the time to use the excel sheet for final graph generation.. The excel sheet can be imported to 'origin' software and relevant plot can be geneated. In our case we named the plot as "AggregateReputationValuesAllMethods11October2023".
