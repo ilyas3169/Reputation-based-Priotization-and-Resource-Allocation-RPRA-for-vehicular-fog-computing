@@ -13,4 +13,9 @@ Note that at present the generated reputation values are one of the main the cri
 ### a) Parameter "yloggedreputTESAll" for reputation values for TES technique
 ### b) Parameter "AverageReputAllIDES" for reputation values for IDES  technique
 ### c) Parameter "SaveTotalTrustArray" for reputation values for CBAW  technique.... Yes the name of "SaveTotalTrustArray" is a little not similar to its technique, that is , CBAW...
-## Step 3: After getting the fresh values by running the mentioned matlab files again and loading the corresponding matlab data (source files) or only retrieving the old values (as that of ours), now is the time to use the excel sheet for final graph generation.. The excel sheet can be imported to 'origin' software and relevant plot can be geneated. In our case we named the plot as "AggregateReputationValuesAllMethods11October2023".
+## Step 3: After getting the fresh values by running the mentioned matlab files again and loading the corresponding matlab data (source files) or only retrieving the old values (as that of ours), now is the time to use the excel sheet for final graph generation.. The excel sheet can be imported to 'origin' software and relevant plot can be geneated. In our case we named the plot as "AggregateReputationValuesAllMethods11October2023.pdf".
+## Step 4: There is another version of simulation, and that is to authenticate the geneated reputation values. This authentication and validation is done by running the considered scenario with all of the considered techniques one by one, for twenty times each. After getting the relevant data, we used the Probability Density Function (PDF) plot to ensure that the average value (response latency) is the one which is achieved by any of the simulated method. For achieving these PDF graphs, we developed another matlab based simulation, which are saved in the matlab files..
+## a) RPRA_Vs_CBAW25October2023V2.m for "CBAW" technique
+## b) RPRA_AllMethods25Oct2023_PDF_generationWorkspaceV1.m for "RPRA" technique
+## c) CallingAndusingTES_IDESAndRPRA19October2023.m for "TES" method
+## d) RPRA_AllMethods25Oct2023_PDF_generationWorkspaceV1 for "IDES" technique
