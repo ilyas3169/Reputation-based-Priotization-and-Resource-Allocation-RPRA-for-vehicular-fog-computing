@@ -19,4 +19,8 @@ Note that at present the generated reputation values are one of the main the cri
 ## b) RPRA_AllMethods25Oct2023_PDF_generationWorkspaceV1.m for "RPRA" technique
 ## c) CallingAndusingTES_IDESAndRPRA19October2023.m for "TES" method
 ## d) RPRA_AllMethods25Oct2023_PDF_generationWorkspaceV1 for "IDES" technique
-## Step 4: For trust based reputation values comparison of RPRA and the 3 benchmark methods, TES, IDES, and CBAW, we need to use 'origin' software. 
+## Step 4: For trust based reputation values comparison of RPRA and the 3 benchmark methods, TES, IDES, and CBAW, we need to use 'origin' software. It is because we only have to use the parameters and their values which are already generated during MATLAB simulation... To do the comparison, we varied the following parameters:
+### a) Number of vehicular fog nodes (VFNs), designated by "N"
+### b) Value of Slope, 
+### c) Variation of utility values versus reputation values
+To do this comparison, we are sharing the 'origin' software project file , named as "Trust_based_ComparisonWithParameters_VFC_12August2023V5"...
